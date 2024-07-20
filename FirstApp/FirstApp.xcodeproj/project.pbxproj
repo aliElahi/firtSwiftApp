@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7280FADA2C494D0E00ADFFD4 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FAD92C494D0E00ADFFD4 /* ColorUtils.swift */; };
+		7280FADC2C495FC500ADFFD4 /* SendOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FADB2C495FC500ADFFD4 /* SendOtpView.swift */; };
 		7291B2542C441B19004929C5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291B2532C441B19004929C5 /* SplashView.swift */; };
 		7291B2562C441D72004929C5 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291B2552C441D72004929C5 /* ViewUtils.swift */; };
 		72965D062C43E00400F7241B /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72965D052C43E00400F7241B /* FirstAppApp.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		7280FAD92C494D0E00ADFFD4 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		7280FADB2C495FC500ADFFD4 /* SendOtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendOtpView.swift; sourceTree = "<group>"; };
 		7291B2532C441B19004929C5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		7291B2552C441D72004929C5 /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
 		72965D022C43E00400F7241B /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,7 @@
 			children = (
 				7291B2532C441B19004929C5 /* SplashView.swift */,
 				7291B2552C441D72004929C5 /* ViewUtils.swift */,
+				7280FADB2C495FC500ADFFD4 /* SendOtpView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				7280FADA2C494D0E00ADFFD4 /* ColorUtils.swift in Sources */,
 				72965D062C43E00400F7241B /* FirstAppApp.swift in Sources */,
 				7291B2562C441D72004929C5 /* ViewUtils.swift in Sources */,
+				7280FADC2C495FC500ADFFD4 /* SendOtpView.swift in Sources */,
 				7291B2542C441B19004929C5 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

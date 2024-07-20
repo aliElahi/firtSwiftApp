@@ -20,8 +20,6 @@ struct SplashView: View {
             Spacer()
             if(showLogo){
                 Image("logo")
-                    .background(.lightGray)
-                    
             }
             Spacer()
             Spacer()
@@ -48,8 +46,8 @@ struct SplashView: View {
     
 }
 
-//struct SplashView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SplashView()
-//    }
-//}
+struct SplashView_Previews: PreviewProvider {
+    static var previews: some View {
+        SplashView()
+    }
+}
