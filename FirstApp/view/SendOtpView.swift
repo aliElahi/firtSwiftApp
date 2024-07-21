@@ -21,29 +21,32 @@ struct SendOtpView: View {
     
     var body: some View {
         VStack {
-        
+            
             
             
             Spacer()
             
             Image("logo")
-                    
-            TextField("Enter your national code" , text: $nationalCode)
-                .textFieldStyle(.roundedBorder)
+            
+            TextFieldUi(data: $nationalCode, hint: "Enter your national code")
                 .padding()
                 
-                
+            
             Spacer()
             Spacer()
             Spacer()
+            
+            Button("send"){
+                print(nationalCode)
+            }
             
         }
-            
+        
     }
 }
 
-struct SendOtpView_Previews: PreviewProvider {
-    static var previews: some View {
-        SendOtpView()
-    }
-}
+//struct SendOtpView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SendOtpView()
+//    }
+//}
