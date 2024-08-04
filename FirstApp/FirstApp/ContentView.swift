@@ -8,12 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var splashAnimationIsDone : Bool = false
+    @State private var navigationPath = NavigationPath()
+    
     var body: some View {
-        NavigationView{
-            //SplashView()
-            SendOtpView()
+        NavigationStack(path : $navigationPath) {
+            SplashView(navigationPath: $navigationPath, isAnimationDone: $splashAnimationIsDone)
+                .navigationDestination(for: String.self) { i in
+                    switch(i){
+                    case ShowenView.sendOtpView.rawValue :
+                        SendOtpView(navigationPath: $navigationPath)
+                    case ShowenView.validateOtpView.rawValue :
+                        Text("hello")
+                    default:
+                        fatalError("not found navigation direction")
+                    }
+                    
+                }
+            
+//            if(splashAnimationIsDone){
+//
+//
+//                Button("ss"){
+//                    navigationPath.append("send otp")
+//                }
+//            }
+            
+            
+            //        .navigationDestination(for: String.self){ selection in
+            //            SendOtpView()
+            //        }
         }
-        
     }
 }
 
