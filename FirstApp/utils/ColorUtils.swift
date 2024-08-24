@@ -19,7 +19,10 @@ extension ShapeStyle where Self == Color {
    public static var lightGray : Color {
         return Color ("#BDBFC1")
     }
-    
+
+    public static var primaryColor : Color{
+        return Color(hex: "#6dc285")
+    }
 //    var coordinator: MainCoordinator? {
 //        return MainCoordinator()
 //    }

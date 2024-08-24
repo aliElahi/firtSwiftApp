@@ -12,7 +12,8 @@ struct SplashView: View {
     let animationTime : Double = 1
     
     @State var showLogo = false
-
+    @Binding var navigationPath : NavigationPath
+    @Binding var isAnimationDone : Bool
     
     var body: some View {
         
@@ -23,9 +24,6 @@ struct SplashView: View {
             }
             Spacer()
             Spacer()
-//            Button("test"){
-//                showViews()
-//            }
         }
         .onAppear{
             showViews()
@@ -38,16 +36,19 @@ struct SplashView: View {
             showLogo.toggle()
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + animationTime + 0.5){
-            
-            print("Done1")
+        DispatchQueue.main.asyncAfter(deadline: .now() + animationTime + 1){
+            //isAnimationDone = true
+            navigationPath.append(ShowenView.sendOtpView.rawValue)
         }
     }
     
 }
 
-struct SplashView_Previews: PreviewProvider {
-    static var previews: some View {
-        SplashView()
-    }
-}
+//struct SplashView_Previews: PreviewProvider {
+//    
+//    @State static var bool : Bool = true
+//
+//    static var previews: some View {
+//        SplashView(isAnimationDone: $bool)
+//    }
+//}

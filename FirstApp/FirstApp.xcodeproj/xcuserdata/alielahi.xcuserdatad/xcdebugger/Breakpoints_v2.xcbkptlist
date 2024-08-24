@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F9A0D0FE-AF84-4928-B3D0-25E9D7E6427D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "view/SendOtpView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SendOtpView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F - 2b5091467b0ec45a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of FirstApp.SendOtpView.buttonEnable : Swift.Bool"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alielahi/Desktop/ios_app/firt%20swift%20app/firtSwiftApp/FirstApp/view/SendOtpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F - d9c509cb3c641770"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.SendOtpView.buttonEnable.getter : Swift.Bool"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alielahi/Desktop/ios_app/firt%20swift%20app/firtSwiftApp/FirstApp/view/SendOtpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F - 9c4d84c98b193f64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.SendOtpView.buttonEnable.setter : Swift.Bool"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alielahi/Desktop/ios_app/firt%20swift%20app/firtSwiftApp/FirstApp/view/SendOtpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F - dd1ae307dc643d73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.SendOtpView.buttonEnable.modify : Swift.Bool"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alielahi/Desktop/ios_app/firt%20swift%20app/firtSwiftApp/FirstApp/view/SendOtpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F - e8469c8ef4084764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.SendOtpView.buttonEnable.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alielahi/Desktop/ios_app/firt%20swift%20app/firtSwiftApp/FirstApp/view/SendOtpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  uuid = "1A5CAF69-DC6C-4DFC-BEEF-DCE65854016F - baa120773bc0612c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.SendOtpView.$buttonEnable.getter : SwiftUI.Binding&lt;Swift.Bool&gt;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alielahi/Desktop/ios_app/firt%20swift%20app/firtSwiftApp/FirstApp/view/SendOtpView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

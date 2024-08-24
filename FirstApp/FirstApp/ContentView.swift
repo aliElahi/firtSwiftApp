@@ -11,6 +11,9 @@ struct ContentView: View {
     
     @State private var splashAnimationIsDone : Bool = false
     @State private var navigationPath = NavigationPath()
+
+    
+    
     
     var body: some View {
         NavigationStack(path : $navigationPath) {
@@ -18,7 +21,7 @@ struct ContentView: View {
                 .navigationDestination(for: String.self) { i in
                     switch(i){
                     case ShowenView.sendOtpView.rawValue :
-                        SendOtpView(navigationPath: $navigationPath)
+                        SendOtpView(navigationPath: $navigationPath, buttonEnable: false)
                     case ShowenView.validateOtpView.rawValue :
                         Text("hello")
                     default:

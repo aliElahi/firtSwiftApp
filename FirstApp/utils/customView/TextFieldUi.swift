@@ -22,6 +22,7 @@ struct TextFieldUi: View {
         ZStack{
             TextField(hint , text: $data)
                 .padding()
+                .multilineTextAlignment(.trailing)
         }.cornerRadius(16)
             .shadow(color: .black.opacity(0.08), radius: 20, x: 0, y: 6)
             .overlay(
